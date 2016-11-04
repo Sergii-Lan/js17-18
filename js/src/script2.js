@@ -1,0 +1,1 @@
+/** * Created by Сергей on 30.10.2016. */console.log('script2');
