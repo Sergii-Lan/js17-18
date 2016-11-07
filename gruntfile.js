@@ -10,25 +10,25 @@ module.exports = function(grunt) {
                 separator: ''
             },
             js: {
-                src: ['js/src/script1.js', 'js/src/script2.js'],
-                dest: 'js/dist/script.main.js'
+                src: ['src/js/script1.js', 'src/js/script2.js'],
+                dest: 'dist/js/src/main.js'
             },
             css: {
-                src: ['css/src/style1.css', 'css/src/style2.css'],
-                dest: 'css/dist/style.main.css'
+                src: ['src/css/style1.css', 'src/css/style2.css'],
+                dest: 'dist/css/src/main.css'
             }
         },
         // мініфікація файлів
         uglify: {
             js_min: {
-                src: 'js/dist/script.main.js',
-                dest: 'js/dist/main.min.js'
+                src: 'dist/js/src/main.js',
+                dest: 'dist/js/dist/main.min.js'
             }
         },
         cssmin: {
             css_min:{
-                src: 'css/dist/style.main.css',
-                dest: 'css/dist/main.min.css'
+                src: 'dist/css/src/main.css',
+                dest: 'dist/css/dist/main.min.css'
             }
         }
 
