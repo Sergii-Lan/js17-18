@@ -22,13 +22,13 @@ module.exports = function(grunt) {
         uglify: {
             js_min: {
                 src: 'js/dist/script.main.js',
-                dest: 'js/dist/script.main.min.js'
+                dest: 'js/dist/main.min.js'
             }
         },
         cssmin: {
             css_min:{
                 src: 'css/dist/style.main.css',
-                dest: 'css/dist/style.main.min.css'
+                dest: 'css/dist/main.min.css'
             }
         }
 
